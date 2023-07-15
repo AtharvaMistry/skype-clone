@@ -1,0 +1,23 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #04030E, #141a30);
+}
+.buttonBN2{
+    margin-top: 10px;
+}
+.phoneno{
+    margin-bottom: 10px;
+}
+
+#dropdown{
+    border: none;
+    padding: 5px;
+}
+/*  */
+/* CSS code for screens with a width between 320px and 425px */
+
+  
+

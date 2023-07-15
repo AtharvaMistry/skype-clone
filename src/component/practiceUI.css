@@ -1,0 +1,166 @@
+.mainBox{
+    display: grid;
+    grid-template-columns: 32% 66%;
+    background: linear-gradient(to right, #04030E, #141a30);
+width: 100%;
+padding: 20px;
+}
+.userName09{
+    color: #7332C3;
+ 
+}
+.userName08{
+    color: #462574;
+}
+/* box1 */
+.box1{
+ background: linear-gradient(to bottom right, #25253D, #0E1021);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    margin-right: 20px;
+}
+.box1a{
+height: 17vh;
+border-radius: 10px 10px 0px 0px;
+}
+.box1b{
+
+height: 13vh;
+/* border: 1px solid; */
+}
+.box1c{
+
+height:70vh;
+overflow-y: auto;
+border-radius: 0px 0px 10px 10px;
+color: lightgray;
+border: 1px solid;
+border-image: linear-gradient(135deg, #8CFBF4, #736BFF, #B770FF) 1;
+}
+.box1c>div{
+    border-bottom: 1px solid;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.box1c::-webkit-scrollbar {
+    width: 0px; /* Set the width of the scrollbar
+  }
+  
+  .box1c::-webkit-scrollbar-thumb {
+    background-color: #333; /* Set the color of the scrollbar thumb */
+    border-radius: 5px; /* Set the border radius of the thumb */
+  }
+  
+  .box1c::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Set the background color of the scrollbar track */
+  }
+  
+  .box1c-scrollbar-color {
+    scrollbar-color: #333 #f1f1f1; /* Set the color of the scrollbar thumb and track */
+  }
+.rowLeft2 div p{
+    font-size: 12px;
+}
+.rowLeft2 svg{
+    /* border: 1px solid; */
+    /* border-image: linear-gradient(135deg, #8CFBF4, #736BFF, #B770FF) 1; */
+    padding: 3px;
+    width: 25px;
+    height: 25px;
+}
+.ContactMadeP {
+ color: whitesmoke;
+  }
+/* box2 */
+.box2{
+
+    background: linear-gradient(to bottom right, #25253D, #0E1021);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+}
+.box2a{
+
+height: 10vh;
+border-radius: 0px 10px 10px 0px;
+}
+.box2b{
+
+height: 78vh;
+overflow-y: auto;
+border: 1px solid; 
+border-image: linear-gradient(135deg, #8CFBF4, #736BFF, #B770FF) 1; 
+}
+.box2c{
+  
+    height: 12vh;
+    border-radius: 0px 0px 10px 10px;
+}
+.box2b::-webkit-scrollbar {
+    width: 0px; /* Set the width of the scrollbar */
+  }
+.send{
+align-self: flex-end;
+color: white;
+background-color: lightblue;
+max-width: 65%;
+/* backgrround */
+background: linear-gradient(to right, #4C1E6F, #7332C3);
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 10px 0px 10px 0px;
+    margin-right: 10px;
+}
+.recieve{
+align-self: flex-start;
+color: white;
+background-color: lightcyan;
+max-width: 65%;
+background: linear-gradient(to right, lightblue, lightgray);
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 0px 10px 0px 10px;
+    /* color: lightgray; */
+    color: black;
+    margin-left: 10px;
+}
+
+/* ant design */
+.ant-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+}
+.ant-btn:hover{
+    border: 1px solid; 
+    border-image: linear-gradient(135deg, #8CFBF4, #736BFF, #B770FF) 1; 
+    background-color: none; 
+}
+.ant-btn-primary:hover{
+    border: 1px solid; 
+    border-image: linear-gradient(135deg, #8CFBF4, #736BFF, #B770FF) 1; 
+    background-color: none; 
+}
+.iconFooter4 svg{
+    /* border: 1px solid; */
+    /* border-image: linear-gradient(135deg, #8CFBF4, #736BFF, #B770FF) 1; */
+    padding: 3px;
+    width: 25px;
+    height: 25px;
+}
+.headerRight svg{
+    /* border: 1px solid; */
+    /* border-image: linear-gradient(135deg, #8CFBF4, #736BFF, #B770FF) 1; */
+    padding: 3px;
+    width: 25px;
+    height: 25px;
+}
+.typingArea{
+    /* border: 1px solid white; */
+    border-radius: 7px;
+}
+/* .ant-input{
+    background-color: #181425;
+} */

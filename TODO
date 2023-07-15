@@ -1,0 +1,16 @@
+Chats:
+     scrollable section, chat icon at the bottom of the section
+
+
+margin component:
+     Chats and TextArea:
+          chats will be on left side and textArea on right side.
+          app.js: routes will be merged.
+          
+
+
+left side:
+1)user info
+2)chat,call,notification ,contacts
+3)meet now and newchat
+4)recent chats

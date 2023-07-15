@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+form{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.header123 {
+    width: 100%;
+height: 100vh;
+    background-image: linear-gradient(to right, #04030E, #141a30, #172042);
+    position: relative;
+    animation: color-movement 10s linear infinite;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes color-movement {
+    0% {
+        background-position: 50% 0;
+    }
+    50%{
+        background-position:100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+.icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: gray;
+
+}
+.icon p{
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.signIn{
+    font-size: 22px;
+    display: flex;
+    font-weight: 500;
+    margin: 0;
+}
+.continue{
+    display: flex;
+    font-size: 12px;
+    margin-top: 0;
+}
+form{
+    border: 1px solid;
+border-image: linear-gradient(135deg, #8CFBF4, #736BFF, #B770FF) 1;
+padding: 30px;
+background: linear-gradient(to bottom right, #25253D, #0E1021);
+box-shadow: 2px 2px 7px black;
+}
+form input{
+    border: none;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(135deg, #8CFBF4, #736BFF, #B770FF) 1;
+    padding: 4px;
+    font-size: 16px;
+    background-color: #181425;
+    /* padding-right: 200px; */
+}
+.noAcc{
+   font-size: 12px;
+}
+a{
+    color: #3067B9;
+    font-size: 12px;
+    text-decoration: none;
+}
+.back{
+    font-size: 14px;
+    padding: 5px 35px;
+    border: none;
+    background-color: #c0bfbf;
+    margin-right: 5px;
+}
+.next{
+    font-size: 14px;
+    padding: 5px 35px;
+    border: none;
+    background: linear-gradient(to right, #4C1E6F, #7332C3);
+    margin-right: 5px;
+    color: black;
+}
+.buttonBN{
+    margin-top: 30px;
+}

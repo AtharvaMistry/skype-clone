@@ -1,0 +1,22 @@
+
+
+.header1234 {
+    width: 100%;
+height: 100vh;
+background-image: linear-gradient(to right, #04030E, #141a30, #172042);
+    position: relative;
+    animation: color-movement 10s linear infinite;
+    background-size: 200% auto;
+}
+
+@keyframes color-movement {
+    0% {
+        background-position: 50% 0;
+    }
+    50%{
+        background-position:100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
